@@ -1,0 +1,974 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.17f1 (3e8111cac19d) revision 4096273'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 32671 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Xeno/Desktop/Meme Bunker/GameDev/FinalProject
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+27929
+Successfully changed project path to: C:/Users/Xeno/Desktop/Meme Bunker/GameDev/FinalProject
+C:/Users/Xeno/Desktop/Meme Bunker/GameDev/FinalProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [64176] Host "[IP] 10.0.0.82 [Port] 0 [Flags] 2 [Guid] 1053255656 [EditorId] 1053255656 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J9IS851) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [64176] Host "[IP] 10.0.0.82 [Port] 0 [Flags] 2 [Guid] 1053255656 [EditorId] 1053255656 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-J9IS851) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 103.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.17f1 (3e8111cac19d)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Xeno/Desktop/Meme Bunker/GameDev/FinalProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8038 MB
+    Driver:   31.0.15.3161
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56396
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007971 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 94.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.562 seconds
+Domain Reload Profiling:
+	ReloadAssembly (563ms)
+		BeginReloadAssembly (71ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (391ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (80ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (249ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008308 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.171 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1172ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (52ms)
+			SetupLoadedEditorAssemblies (542ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (277ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5699 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 51 unused Assets / (0.8 MB). Loaded Objects now: 6147.
+Memory consumption went from 224.2 MB to 223.4 MB.
+Total: 3.817700 ms (FindLiveObjects: 0.450900 ms CreateObjectMapping: 0.151800 ms MarkObjects: 2.892300 ms  DeleteObjects: 0.321800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1672911.503570 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(b3666c4e28d1eda44b016842185a972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(b3666c4e28d1eda44b016842185a972b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b71889eb6a134828721b6e2273eae21') in 0.017497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.023685 seconds.
+  path: Assets/WarFX
+  artifactKey: Guid(bf67b04f7e403384eb93f422cf479252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX using Guid(bf67b04f7e403384eb93f422cf479252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38f8444d97704d4268512e8a7c211ce3') in 0.008590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.444651 seconds.
+  path: Assets/WarFX/Editor
+  artifactKey: Guid(4cef0b5d1ae02e841ab164af332de5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Editor using Guid(4cef0b5d1ae02e841ab164af332de5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fcbb5a15355993fe947cc356cf88bbd') in 0.007172 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.456126 seconds.
+  path: Assets/WarFX/Mesh
+  artifactKey: Guid(f77de7cb780fd6b4bb8db8b51162c1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mesh using Guid(f77de7cb780fd6b4bb8db8b51162c1b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894ff6586600f3fe1ff2e853e10009e4') in 0.006463 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.271354 seconds.
+  path: Assets/WarFX/Mobile
+  artifactKey: Guid(885e36481eeb36c4dac769d36bcc55db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mobile using Guid(885e36481eeb36c4dac769d36bcc55db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14e3409f24d1116a25e4b47c093aa28d') in 0.007155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.487729 seconds.
+  path: Assets/WarFX/Scripts
+  artifactKey: Guid(6b2cbf6bed65b8d4989bb74e47046392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Scripts using Guid(6b2cbf6bed65b8d4989bb74e47046392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5cb343f0f52086555bfc5ca65e286c') in 0.002596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.346995 seconds.
+  path: Assets/WarFX/Shaders
+  artifactKey: Guid(76d80da38348456428f40ad47fa7c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Shaders using Guid(76d80da38348456428f40ad47fa7c359) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2f4a6c165de2c64c26ede18307f09e0') in 0.007076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.428882 seconds.
+  path: Assets/WarFX/Spawn System
+  artifactKey: Guid(f7d57630affcb094c92a3d45ccae671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Spawn System using Guid(f7d57630affcb094c92a3d45ccae671e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16fec03e09b668383ff6f6bbecde9c6') in 0.006798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.007696 seconds.
+  path: Assets/WarFX/Desktop
+  artifactKey: Guid(56b0aae9a89a04d408982a4eea97cba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Desktop using Guid(56b0aae9a89a04d408982a4eea97cba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1eed08760929ac1e364f6164d6573ce') in 0.006887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.251222 seconds.
+  path: Assets/WarFX/Demo
+  artifactKey: Guid(33cdb7619e571aa4fa20a61357cb8de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Demo using Guid(33cdb7619e571aa4fa20a61357cb8de7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76df6fbed0d4e7cecfe532e8d4410415') in 0.007548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.618382 seconds.
+  path: Assets/WarFX/Desktop/Materials
+  artifactKey: Guid(b532e50c08f91d645a79e03616d48d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Desktop/Materials using Guid(b532e50c08f91d645a79e03616d48d58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54182f06e3ba6a543ce152669ab2f36e') in 0.006679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 485.404616 seconds.
+  path: Assets/Scripts/HealthController.cs
+  artifactKey: Guid(a56ee43b88d3fc04e9ba1e1459e5df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthController.cs using Guid(a56ee43b88d3fc04e9ba1e1459e5df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362a3261a90a62606cf3258b013f22a8') in 0.035119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.585955 seconds.
+  path: Assets/Scripts/GunController.cs
+  artifactKey: Guid(56218d908433e1c4ea10b7c87151274c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GunController.cs using Guid(56218d908433e1c4ea10b7c87151274c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07de949d2eae6671282fdbc0739028d9') in 0.008445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 51.157779 seconds.
+  path: Assets/Scripts/GunController.cs
+  artifactKey: Guid(56218d908433e1c4ea10b7c87151274c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GunController.cs using Guid(56218d908433e1c4ea10b7c87151274c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '974468b9f056bdfb9f83563dfff61e47') in 0.002780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 58.421489 seconds.
+  path: Assets/Scripts/PlayerAction.cs
+  artifactKey: Guid(bb69ba9578a9e164898b2c87b77e98b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerAction.cs using Guid(bb69ba9578a9e164898b2c87b77e98b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b0c31a3164faf72c32d62b7ff4278cb') in 0.007076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.121714 seconds.
+  path: Assets/Scripts/HealthController.cs
+  artifactKey: Guid(a56ee43b88d3fc04e9ba1e1459e5df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HealthController.cs using Guid(a56ee43b88d3fc04e9ba1e1459e5df7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f164e88dd7cabe7fd2b1ad26bc477a1e') in 0.002230 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007442 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1005ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (46ms)
+		EndReloadAssembly (794ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (397ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (79ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.8 MB). Loaded Objects now: 6163.
+Memory consumption went from 215.8 MB to 215.0 MB.
+Total: 3.677000 ms (FindLiveObjects: 0.406700 ms CreateObjectMapping: 0.145900 ms MarkObjects: 2.803600 ms  DeleteObjects: 0.319700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007301 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (48ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (478ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6178.
+Memory consumption went from 215.8 MB to 215.1 MB.
+Total: 4.497700 ms (FindLiveObjects: 0.572700 ms CreateObjectMapping: 0.189100 ms MarkObjects: 3.390200 ms  DeleteObjects: 0.344600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 132.927475 seconds.
+  path: Assets/Scripts/Gun.cs
+  artifactKey: Guid(74ad2d7eb0a39894c994e0482a47a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Gun.cs using Guid(74ad2d7eb0a39894c994e0482a47a319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba4bb4448d7f48630cc1f33c547f9a3') in 0.018217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.280294 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10862ed6918387b30da15d4a6aec01e') in 0.019769 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011133 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.183 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1183ms)
+		BeginReloadAssembly (146ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (950ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (280ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (474ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (90ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (78ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.73 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (0.8 MB). Loaded Objects now: 6194.
+Memory consumption went from 215.8 MB to 215.1 MB.
+Total: 4.920900 ms (FindLiveObjects: 0.444500 ms CreateObjectMapping: 0.170500 ms MarkObjects: 3.914200 ms  DeleteObjects: 0.390600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 337.400769 seconds.
+  path: Assets/Scripts/FirstPersonController.cs
+  artifactKey: Guid(55919ac34a26952479f3fc91f777b2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FirstPersonController.cs using Guid(55919ac34a26952479f3fc91f777b2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c677bbc11d14fce39badb907019e0469') in 0.017561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.950551 seconds.
+  path: Assets/InputSystem/StarterAssetsInputs.cs
+  artifactKey: Guid(e087ecce43ebbff45a1b360637807d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/StarterAssetsInputs.cs using Guid(e087ecce43ebbff45a1b360637807d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc2ef57d6a77f3dcfd5fbf75247054b') in 0.006843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 265.130175 seconds.
+  path: Assets/Scripts/BasicRigidBodyPush.cs
+  artifactKey: Guid(909d917d73a63f940ac158d02e936645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/BasicRigidBodyPush.cs using Guid(909d917d73a63f940ac158d02e936645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4eda34bd1d498789d94ebdb933299637') in 0.007869 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007858 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.098 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1098ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (863ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (432ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (75ms)
+				ProcessInitializeOnLoadAttributes (247ms)
+				ProcessInitializeOnLoadMethodAttributes (82ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.61 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6209.
+Memory consumption went from 215.9 MB to 215.1 MB.
+Total: 3.956800 ms (FindLiveObjects: 0.475300 ms CreateObjectMapping: 0.134500 ms MarkObjects: 2.956800 ms  DeleteObjects: 0.389200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007721 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.200 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1200ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (961ms)
+			LoadAssemblies (93ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (479ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (128ms)
+				ProcessInitializeOnLoadAttributes (262ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6224.
+Memory consumption went from 215.9 MB to 215.1 MB.
+Total: 4.563900 ms (FindLiveObjects: 0.463400 ms CreateObjectMapping: 0.361600 ms MarkObjects: 3.381300 ms  DeleteObjects: 0.356500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 698.861730 seconds.
+  path: Assets/InputSystem/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49088ad9405c7af2389c1422f289d7a9') in 0.021305 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.670619 seconds.
+  path: Assets/InputSystem/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7c89c9846e7e630dd6481b3acc49d52') in 0.004185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.650086 seconds.
+  path: Assets/InputSystem/StarterAssets.cs
+  artifactKey: Guid(7fef8fbee9caf56408899336efe54b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/StarterAssets.cs using Guid(7fef8fbee9caf56408899336efe54b0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e547eb50ab72db1a192391e62cdf2787') in 0.002969 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009551 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.085 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1085ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (45ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (96ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (61ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6239.
+Memory consumption went from 215.9 MB to 215.1 MB.
+Total: 4.704800 ms (FindLiveObjects: 0.506600 ms CreateObjectMapping: 0.325400 ms MarkObjects: 3.357600 ms  DeleteObjects: 0.513900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007898 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.232 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1233ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (995ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (332ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (281ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.62 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6254.
+Memory consumption went from 215.9 MB to 215.2 MB.
+Total: 4.043200 ms (FindLiveObjects: 0.472600 ms CreateObjectMapping: 0.292200 ms MarkObjects: 2.914900 ms  DeleteObjects: 0.362600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007460 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.052 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1052ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (822ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (410ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (246ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 2.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6269.
+Memory consumption went from 215.9 MB to 215.2 MB.
+Total: 3.602600 ms (FindLiveObjects: 0.451200 ms CreateObjectMapping: 0.158100 ms MarkObjects: 2.688900 ms  DeleteObjects: 0.303600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007385 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (938ms)
+			LoadAssemblies (91ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (274ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (469ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (279ms)
+				ProcessInitializeOnLoadMethodAttributes (67ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5563 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (0.8 MB). Loaded Objects now: 6284.
+Memory consumption went from 216.0 MB to 215.2 MB.
+Total: 4.181300 ms (FindLiveObjects: 0.416300 ms CreateObjectMapping: 0.154200 ms MarkObjects: 3.202000 ms  DeleteObjects: 0.407600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007447 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Xeno\Desktop\Meme Bunker\GameDev\FinalProject\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.126 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1127ms)
+		BeginReloadAssembly (153ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (109ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (415ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 3.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5651 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 39 unused Assets / (2.8 MB). Loaded Objects now: 6386.
+Memory consumption went from 222.6 MB to 219.7 MB.
+Total: 4.669200 ms (FindLiveObjects: 0.414100 ms CreateObjectMapping: 0.418700 ms MarkObjects: 2.868900 ms  DeleteObjects: 0.966400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1511.804488 seconds.
+  path: Assets/Levels
+  artifactKey: Guid(7af2e388b30ca2f458daf2e91e06ee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels using Guid(7af2e388b30ca2f458daf2e91e06ee91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6fa83ba5bd62e741d7e6ac890510ed') in 0.016903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004055 seconds.
+  path: Assets/Levels/Terrain.prefab
+  artifactKey: Guid(1c9f49f8e7280e049a4489a79201c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Terrain.prefab using Guid(1c9f49f8e7280e049a4489a79201c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb7142965dd7038509ec9e03275d548') in 0.783828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.009461 seconds.
+  path: Assets/Levels/Training Level.unity
+  artifactKey: Guid(04201a06c2494ee48988ad3bc63e1122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Training Level.unity using Guid(04201a06c2494ee48988ad3bc63e1122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19c0b34e11f8838a1ec5394cf9a5ba77') in 0.008272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 159.612952 seconds.
+  path: Assets/Levels/Terrain.prefab
+  artifactKey: Guid(1c9f49f8e7280e049a4489a79201c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Levels/Terrain.prefab using Guid(1c9f49f8e7280e049a4489a79201c1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5d9ced0bf78243cd8432fcd3a8ed71') in 2.398976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.666487 seconds.
+  path: Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Concrete Lighted.mat
+  artifactKey: Guid(fe2101610378f0e41a0cdc27eb74f98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Concrete Lighted.mat using Guid(fe2101610378f0e41a0cdc27eb74f98c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a811bbd227a6268a4ca2a009611f9873') in 0.176200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Metal Lighted.mat
+  artifactKey: Guid(ad9313fb9df08c943873fb1f4fb3a662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Metal Lighted.mat using Guid(ad9313fb9df08c943873fb1f4fb3a662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a9fde0a8063dc442903f280e64b096d') in 0.023158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic.mat
+  artifactKey: Guid(4da7913ced16a4d4f8948ab7ee19da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic.mat using Guid(4da7913ced16a4d4f8948ab7ee19da6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb80ede6b58a2d8e0830499019b4a79b') in 0.021955 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Wood.mat
+  artifactKey: Guid(da45bc001784dc244a47f5336a146bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Wood.mat using Guid(da45bc001784dc244a47f5336a146bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655d9061d86f922e20b512a5cb8a6fd1') in 0.021338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic Dirt.mat
+  artifactKey: Guid(12e384003051d804d826efc716fc5f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic Dirt.mat using Guid(12e384003051d804d826efc716fc5f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80e4799d03e6290d572c67162a78d43') in 0.017065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Wood Lighted.mat
+  artifactKey: Guid(22e274cec6ea8674cb2d4015a3fe1770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Wood Lighted.mat using Guid(22e274cec6ea8674cb2d4015a3fe1770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f65ee1f000cd8d2dd316b70a8863a87') in 0.013692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic Sand.mat
+  artifactKey: Guid(d9647b2b4e5345043b393555fd1dd336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/WarFX/Mobile/Materials/Bullet Holes/WFXM_BulletHole Generic Sand.mat using Guid(d9647b2b4e5345043b393555fd1dd336) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40de214625929e7de2e67a8c0424b231') in 0.015009 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
