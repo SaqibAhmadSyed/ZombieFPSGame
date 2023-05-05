@@ -5,7 +5,7 @@ This is the repository for the group project of the **"TBD"** team for Game Prog
 - All files (Project File, Images)
 - Documentation
 
-## [Project Instructions](/Instructions)
+## [Project Instructions](/Deliverables)
 This file contains the guidelines and requirements for every deliverable, presentation and final product pertaining to this project.
 
 ## [Deliverables](/Deliverables)
