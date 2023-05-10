@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - CinemachineTarget
+  - Weapon
+  - SecondCamera
+  - BulletSpawn
+  - FxTemporaire
+  - Footsteps/Wood
+  - Footsteps/Grass
+  - Footsteps/Concrete
   layers:
   - Default
   - TransparentFX

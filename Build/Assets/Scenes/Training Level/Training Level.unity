@@ -129,6 +129,38 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1788641969}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4710670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4710671}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4710671
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4710670}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 568.5, y: 392.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 771103632}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &226207305
 GameObject:
   m_ObjectHideFlags: 0
@@ -321,6 +353,134 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288719629}
   m_Mesh: {fileID: 4300008, guid: b6f5f20f39618f3458845ad3b76ea872, type: 3}
+--- !u!1 &300005644
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 300005646}
+  - component: {fileID: 300005645}
+  m_Layer: 0
+  m_Name: Audio Source
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &300005645
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300005644}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 95c1acb559e213f46a36c596fa149552, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.135
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 91
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &300005646
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 300005644}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 637.49, y: 24.637814, z: 476.05}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &458800840
 GameObject:
   m_ObjectHideFlags: 0
@@ -827,6 +987,11 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -2.317688
       objectReference: {fileID: 0}
+    - target: {fileID: 6801781159183388714, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: sprint
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6883340947885863004, guid: 6ede8e289e017174e9fb0511bb216a1b,
         type: 3}
       propertyPath: m_RootOrder
@@ -887,8 +1052,99 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: LandingAudioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 8398f8f2516aa7a4a84c3d7e211973ce, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f1ef292d659daf40af9e676d0b5a660, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: db025f8106ed50743baf4269397919fd, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 89a32bb1b6a30fe47ad88700a56f15a4, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6c8325326d8b9fa4fb00076dd381462a, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 406ebc445c135384086a0c9820c5192f, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: 2ff64040199f88e4c87568ee800a43c9, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 34f86ea7e63502c4da828e068d9fb526, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4b7dc432a4d7ab549b517496722beaf1, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 60e08b3d5fbaf1a45801c0b569e19740, type: 3}
+    - target: {fileID: 7118670117910924369, guid: 6ede8e289e017174e9fb0511bb216a1b,
+        type: 3}
+      propertyPath: FootstepAudioClips.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 428ff92ebe3bf9f4e82f4f129a74609f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ede8e289e017174e9fb0511bb216a1b, type: 3}
+--- !u!1 &771103631
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 771103632}
+  m_Layer: 0
+  m_Name: Sound Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &771103632
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 771103631}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4710671}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &833481861
 GameObject:
   m_ObjectHideFlags: 0
@@ -924,7 +1180,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -363.3, y: 22.8}
+  m_AnchoredPosition: {x: -284, y: 22.8}
   m_SizeDelta: {x: 392.3, y: 30.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &833481863
@@ -949,12 +1205,12 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 24
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
     m_MaxSize: 24
-    m_Alignment: 7
+    m_Alignment: 6
     m_AlignByGeometry: 0
     m_RichText: 0
     m_HorizontalOverflow: 0
@@ -1869,15 +2125,100 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 132276684949895578, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 155729673603084917, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 304171441283265510, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 363601085651464574, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 500473793990641060, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 795145785354153831, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: Priority
+      value: 114
+      objectReference: {fileID: 0}
+    - target: {fileID: 795145785354153831, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_Volume
+      value: 0.22
+      objectReference: {fileID: 0}
     - target: {fileID: 830943509088548728, guid: 5011c9d6b8cc92747a6bc786ce927f76,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 961.5
       objectReference: {fileID: 0}
+    - target: {fileID: 830943509088623702, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 970053450446220248, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1038576951658985464, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 1058657875521270017, guid: 5011c9d6b8cc92747a6bc786ce927f76,
         type: 3}
       propertyPath: m_LocalPosition.z
       value: -870.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 1150039671384552394, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1269714346533740491, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 1413345044833691830, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1417728658079355434, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1719056576392716698, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 1880529244424711720, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 2021377448590576243, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
       objectReference: {fileID: 0}
     - target: {fileID: 2426314300582036913, guid: 5011c9d6b8cc92747a6bc786ce927f76,
         type: 3}
@@ -1889,12 +2230,67 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 21.3
       objectReference: {fileID: 0}
+    - target: {fileID: 2691707638836312523, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 3034809106973758098, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 3654909619728856448, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 3856512796562346277, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431096228789521367, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 4517980013018229680, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 4613287473771948190, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 4726939505772419709, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
     - target: {fileID: 5240909108233069165, guid: 5011c9d6b8cc92747a6bc786ce927f76,
         type: 3}
       propertyPath: m_Text
       value: 'W/A/S/D or Arrow Keys to move
 
         Ctrl or L-Click to Shoot'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5467384125256108456, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 5925043978835656113, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 6271790950843561545, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
       objectReference: {fileID: 0}
     - target: {fileID: 6973388504947589706, guid: 5011c9d6b8cc92747a6bc786ce927f76,
         type: 3}
@@ -1961,10 +2357,40 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain
       objectReference: {fileID: 0}
+    - target: {fileID: 6973388504947589751, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
     - target: {fileID: 6998473878783001799, guid: 5011c9d6b8cc92747a6bc786ce927f76,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 630.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7014877286567510467, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 7685361744072374559, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 7766065611882394329, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
+      objectReference: {fileID: 0}
+    - target: {fileID: 8257341938220826596, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 8263130806738448238, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
       objectReference: {fileID: 0}
     - target: {fileID: 8374624242708904093, guid: 5011c9d6b8cc92747a6bc786ce927f76,
         type: 3}
@@ -1981,10 +2407,25 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.142
       objectReference: {fileID: 0}
+    - target: {fileID: 8417406220658147616, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
+    - target: {fileID: 8957443108033309061, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Concrete
+      objectReference: {fileID: 0}
     - target: {fileID: 9043771004793540851, guid: 5011c9d6b8cc92747a6bc786ce927f76,
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9108607869161243712, guid: 5011c9d6b8cc92747a6bc786ce927f76,
+        type: 3}
+      propertyPath: m_TagString
+      value: Footsteps/Wood
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5011c9d6b8cc92747a6bc786ce927f76, type: 3}

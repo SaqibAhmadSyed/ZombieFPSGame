@@ -15,7 +15,7 @@ D:/Documents/GitHub/ZombieFPSGame/Build
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64436
+52446
 Successfully changed project path to: D:/Documents/GitHub/ZombieFPSGame/Build
 D:/Documents/GitHub/ZombieFPSGame/Build
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ D:/Documents/GitHub/ZombieFPSGame/Build
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [32884] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 730053574 [EditorId] 730053574 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-Veaci) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [27724] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 156336833 [EditorId] 156336833 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-Veaci) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [32884] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 730053574 [EditorId] 730053574 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-Veaci) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [27724] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 156336833 [EditorId] 156336833 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-Veaci) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 137.17 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 186.07 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.17f1 (3e8111cac19d)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Resources/UnitySubsystems
@@ -69,91 +69,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56268
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006782 seconds.
+Registered in 0.009186 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 139.70 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 181.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.745 seconds
+- Completed reload, in  0.958 seconds
 Domain Reload Profiling:
-	ReloadAssembly (745ms)
-		BeginReloadAssembly (84ms)
+	ReloadAssembly (959ms)
+		BeginReloadAssembly (117ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (537ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (683ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (112ms)
+			SetupTypeCache (141ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (348ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (440ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (140ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
+				RefreshPlugins (182ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009240 seconds.
+Registered in 0.012263 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\Documents\GitHub\ZombieFPSGame\Build\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\Documents\GitHub\ZombieFPSGame\Build\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 141.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 187.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.810 seconds
+- Completed reload, in  2.026 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1811ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (2027ms)
+		BeginReloadAssembly (144ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1557ms)
-			LoadAssemblies (243ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1715ms)
+			LoadAssemblies (128ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (398ms)
+			SetupTypeCache (479ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (78ms)
-			SetupLoadedEditorAssemblies (797ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (959ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (142ms)
-				BeforeProcessingInitializeOnLoad (127ms)
-				ProcessInitializeOnLoadAttributes (416ms)
-				ProcessInitializeOnLoadMethodAttributes (99ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (188ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (478ms)
+				ProcessInitializeOnLoadMethodAttributes (107ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
 Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 1.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5788 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (1.4 MB). Loaded Objects now: 6241.
-Memory consumption went from 234.8 MB to 233.3 MB.
-Total: 6.097800 ms (FindLiveObjects: 0.592400 ms CreateObjectMapping: 0.603500 ms MarkObjects: 4.285300 ms  DeleteObjects: 0.615200 ms)
+Unloading 5789 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (1.7 MB). Loaded Objects now: 6256.
+Memory consumption went from 246.9 MB to 245.3 MB.
+Total: 4.890300 ms (FindLiveObjects: 0.619400 ms CreateObjectMapping: 0.784100 ms MarkObjects: 2.922400 ms  DeleteObjects: 0.563400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -168,17 +168,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 961672.945831 seconds.
-  path: Assets/Readme.asset
-  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0fe287b18f06da1c59066492923045') in 0.031913 seconds 
+  Time since last request: 1049259.114839 seconds.
+  path: Assets/SFX/Dialog/friend.mp3
+  artifactKey: Guid(0c5de6ba8ac14654f8895848582402d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/Dialog/friend.mp3 using Guid(0c5de6ba8ac14654f8895848582402d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '687f4f9d725e65697054f3fad6478183') in 0.179323 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/UniversalRenderPipelineAsset_Renderer.asset
-  artifactKey: Guid(635ecd48c25793d459ce38c1c0495493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UniversalRenderPipelineAsset_Renderer.asset using Guid(635ecd48c25793d459ce38c1c0495493) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5501e9c306521c7df7044bbc2f3d6adc') in 0.104820 seconds 
+  Time since last request: 0.000063 seconds.
+  path: Assets/SFX/Dialog/low_ammo.mp3
+  artifactKey: Guid(d181d08d5955e9f47a97fa20567b0de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/Dialog/low_ammo.mp3 using Guid(d181d08d5955e9f47a97fa20567b0de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8afcea3351b988c24faee0f617bfb71') in 0.017386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/SFX/Dialog/name_in_my_head.mp3
+  artifactKey: Guid(781883aeae44883438f7d4d5b1ea1f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/Dialog/name_in_my_head.mp3 using Guid(781883aeae44883438f7d4d5b1ea1f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f7f0cd563187157ed032970814fb68c') in 0.013430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.779666 seconds.
+  path: Assets/SFX/Dialog/tired.mp3
+  artifactKey: Guid(742f8138fff450846a48d93418f0775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SFX/Dialog/tired.mp3 using Guid(742f8138fff450846a48d93418f0775c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93f9eeb64b80f30cc2e2cee53cd2f830') in 0.015830 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
