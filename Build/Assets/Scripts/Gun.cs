@@ -58,6 +58,11 @@ public class Gun : MonoBehaviour
             {
                 target.TakeDamage(damage);
             }
+            Enemy enemy = hit.transform.GetComponent<Enemy>();
+            if (enemy != null)
+            {
+                enemy.TakeDamage(damage);
+            }
             GameObject impact = Instantiate(impactEffect, hit.point, Quaternion.LookRotation(hit.normal));
             Destroy(impact, 2f);
             
