@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{3DC55FE5-CFCD-70E7-EAB0-658003F17157}</ProjectGuid>
+    <ProjectGuid>{EE1E2A30-BD2B-B08E-51A7-8B49C088580A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Burst.CodeGen</AssemblyName>
@@ -725,7 +725,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{768BBF1D-EC13-B258-0C08-0F6608410401}</Project>
+      <Project>{D49601B0-5255-A374-17FF-0F68FCBD9226}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
   </ItemGroup>

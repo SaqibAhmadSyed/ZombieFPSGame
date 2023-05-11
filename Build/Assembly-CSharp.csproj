@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{32C3BDE6-E125-3128-82C1-25D0441455A3}</ProjectGuid>
+    <ProjectGuid>{FB033F43-1472-D603-8ED5-F430C6CC1B21}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -56,48 +56,150 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\CameraShake.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\WarFX\Spawn System\CFX_SpawnSystem.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\PlayerMovementScript.cs" />
-    <Compile Include="Assets\Scripts\FirstPersonController.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\GunScript.cs" />
     <Compile Include="Assets\WarFX\Scripts\WFX_BulletHoleDecal.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\MouseLookScript.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\Scripts\DisableRenderer.cs" />
+    <Compile Include="Assets\Scripts\ZombieMovements+Spawn\EnemyMovement.cs" />
     <Compile Include="Assets\WarFX\Scripts\CFX_AutoDestructShuriken.cs" />
     <Compile Include="Assets\Scripts\Target.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\BloomModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\GunInventory.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
-    <Compile Include="Assets\Scripts\Gun.cs" />
+    <Compile Include="Assets\Scripts\ZombieMovements+Spawn\EnemyDamage.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\Scripts\WaterFloat.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\Scripts\LevelHandler.cs" />
+    <Compile Include="Assets\Scripts\ZombieMovements+Spawn\EnemySpawner.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
+    <Compile Include="Assets\Scripts\ZombieMovements+Spawn\Enemy.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\WarFX\Scripts\CFX_LightIntensityFade.cs" />
-    <Compile Include="Assets\InputSystem\StarterAssetsInputs.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\BulletScript.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\BloomComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\Scripts\FPSController\CharController_Motor.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\DitheringComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Easy FPS\Scripts\DestroyAfterTimeParticle.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
     <Compile Include="Assets\WarFX\Scripts\WFX_LightFlicker.cs" />
-    <Compile Include="Assets\Scripts\BasicRigidBodyPush.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\GrainModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\GrainComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\Flooded_Grounds\Scripts\FPSDisplay.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceReflection.shader" />
     <None Include="Assets\WarFX\Shaders\WFX_S Multiply Soft.shader" />
     <None Include="Assets\WarFX\Shaders\WFX_S Multiply Soft Scroll.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\GrainGen.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\FXAA3.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\EyeAdaptation.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Utilities\CustomMotionTexture\Shaders\CustomMotionVectorTexture.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\BuiltinDebugViews.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\LutGen.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
     <None Include="Assets\WarFX\_Effects\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+    <None Include="Assets\CS - Signs Free\Standard 2 Sided.shader" />
     <None Include="Assets\WarFX\Shaders\WFX_S Alpha-Specular TintColor.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\TAA.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\WarFX\Shaders\WFX_S Add Scroll.shader" />
+    <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorBark.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\VectorscopeCompute.compute" />
     <None Include="Assets\WarFX\_Effects (Mobile)\MuzzleFlashes\!MuzzleFlash Differences.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ColorGrading.cginc" />
+    <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorLeavesOptimized.shader" />
     <None Include="Assets\WarFX\Shaders\WFX_S Particle Add A8.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\UberSecondPass.cginc" />
     <None Include="Assets\WarFX\Shaders\WFX_S Smoke Scroll.shader" />
     <None Include="Assets\WarFX\Shaders\WFX_S Particle Multiply A8.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Bluenoise64\LICENSE.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ACES.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\MotionBlur.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\AmbientOcclusion.shader" />
     <None Include="Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\FXAA.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\ScreenSpaceRaytrace.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Tonemapping.cginc" />
+    <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_PBR_TopBlend.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Fog.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DiskKernels.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Bluenoise64\COPYING.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\UI\Trackball.shader" />
+    <None Include="Assets\CS - Signs Free\Readme.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\WaveformRender.shader" />
+    <None Include="Assets\Flooded_Grounds\Resources\WavingGrass.shader" />
+    <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorBarkOptimized.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Common.cginc" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\VectorscopeRender.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Bloom.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Uber.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DepthOfField.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\TAA.shader" />
+    <None Include="Assets\Flooded_Grounds\Resources\TreeCreator\TreeCreatorLeaves.shader" />
     <None Include="Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Blit.shader" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\Bloom.cginc" />
     <None Include="Assets\WarFX\!WarFX Readme.txt" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Editor Resources\Monitors\WaveformCompute.compute" />
+    <None Include="Assets\Flooded_Grounds\PostProcessing\Resources\Shaders\DepthOfField.cginc" />
     <None Include="Assets\WarFX\Shaders\WFX_S Alpha-Diffuse TintColor.shader" />
+    <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Triplanar_BumpSpec.shader" />
     <None Include="Assets\WarFX\Shaders\WFX_S AlphaBlend NoSoftParticles.shader" />
+    <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_Skybox_Rotating.shader" />
+    <None Include="Assets\Flooded_Grounds\Content\Shaders\FG_PBR_Water.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -358,6 +460,9 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -366,9 +471,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -775,135 +877,135 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{6A2F10FE-0898-9C1C-9897-D62F3A6958CF}</Project>
+      <Project>{EDEE1A95-E542-A65F-1581-31BF34E470D0}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.Editor.csproj">
-      <Project>{DE63C7FA-80B8-DB7F-E94C-BA0E451813F2}</Project>
+      <Project>{6F64285B-7E2C-50E5-21D6-645B2B6024D6}</Project>
       <Name>Unity.VisualScripting.Flow.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{86D4755F-5CEC-9BB4-CFF1-41DB8CAD4A63}</Project>
+      <Project>{9E64BEA9-C882-999C-4A21-6D7D157DEBA9}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{AB010756-D918-EA42-906F-0FD15891EDA7}</Project>
+      <Project>{1FDE4B46-F362-34FC-B17A-4686A81CF983}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Performance.Profile-Analyzer.Editor.csproj">
-      <Project>{3B501CEF-067F-B97A-D5BE-2256A865ABE2}</Project>
+      <Project>{FAE88DB2-1A12-38AE-3C05-92B1ADB825AB}</Project>
       <Name>Unity.Performance.Profile-Analyzer.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.csproj">
-      <Project>{82AD70A2-8CFB-21C5-E084-5E716F4181A8}</Project>
+      <Project>{EBBB5CA3-5AA5-FB18-012E-57929B9D6261}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Model</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{A5250F35-1318-2544-DD4C-5C2FC4147C97}</Project>
+      <Project>{DCB53FB8-8234-307C-496D-6526C4CCE8DD}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{AA71CFAB-420E-E867-0666-4F0F82B56279}</Project>
+      <Project>{B6A7AABF-30A3-7D57-C5DE-48D943C18BBE}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.Editor.csproj">
-      <Project>{CFFA2412-CEE9-25F5-3A2B-B0C3D2F7DC7F}</Project>
+      <Project>{5FFC00AD-314C-EE95-31A1-C143DD4A5360}</Project>
       <Name>Unity.VisualScripting.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{3375ABF2-BCB5-BC3F-D583-0FE77C66C37C}</Project>
+      <Project>{4C994083-B5E6-DBAA-B004-0863519A188A}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.Editor.csproj">
-      <Project>{B8C7ABE1-DFF3-7E78-6DA7-9DF123FE4EC8}</Project>
+      <Project>{73A1CBD5-E839-E1CF-2619-8E45C4C706FF}</Project>
       <Name>Unity.VisualScripting.State.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{4D3A783A-D5D8-27C8-58DB-ACED6840C5DC}</Project>
+      <Project>{A5B22749-48DB-59BC-9441-00A1B106CBA6}</Project>
       <Name>Unity.Burst.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{88BAF3DA-47EF-FDAB-CE1B-1C180F9A7FE2}</Project>
+      <Project>{9D40F918-FE57-4BB9-2033-D969E86666EF}</Project>
       <Name>Unity.Searcher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.SettingsProvider.Editor.csproj">
-      <Project>{A5EC846E-BD95-6712-4F58-3A4ED63FFC9E}</Project>
+      <Project>{56D816F0-8136-D9E1-2F95-F3082296EEB9}</Project>
       <Name>Unity.VisualScripting.SettingsProvider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.csproj">
-      <Project>{DCEA061E-3CE2-DC5E-A344-D1924CB80B9B}</Project>
+      <Project>{95389C29-72D0-16E9-B633-C4A9CAC487A1}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Flow.csproj">
-      <Project>{A6503458-BC1A-FC3E-DE9F-320CB2945529}</Project>
+      <Project>{87AA56C7-FCB9-A1DA-4A7E-BD83ADAF2E04}</Project>
       <Name>Unity.VisualScripting.Flow</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{67902707-2E49-4DAC-7E08-A40DC440FCD5}</Project>
+      <Project>{2928848D-41BA-3EED-9ADA-3C2BD37A6C22}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{9B168589-3356-01B5-B9F7-335C1615CD9E}</Project>
+      <Project>{526969BA-AC7C-30DF-B822-8F3362F358A3}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{D91B6A68-CC51-EEDF-EECD-A582294ED2E9}</Project>
+      <Project>{9F7FBB18-C9A6-8703-A51D-E370621BD5FB}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Core.csproj">
-      <Project>{F718E335-6AAA-C941-FFD7-657246BEB012}</Project>
+      <Project>{8FBD2318-A051-B5E8-EE8F-AF1BD33BB39C}</Project>
       <Name>Unity.VisualScripting.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{1C9AF978-C62A-1EAE-5ADE-70846941A314}</Project>
+      <Project>{58F80A05-84F3-AF1A-0DDB-889A31C5B8D6}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{F3E1D955-3AEC-9B08-AE6D-867DCA9DF752}</Project>
+      <Project>{343BF9FA-EB51-6C60-0CDA-FE0CF2BDC597}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{65F16392-679C-5B53-9435-F12308680A68}</Project>
+      <Project>{12E11362-FC81-2C60-C7AB-73BC26692A9D}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
-      <Project>{9E44B14B-2459-0578-8F25-B879A3343454}</Project>
+      <Project>{34AFE917-1176-879A-4876-37A691B5AD07}</Project>
       <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Analytics.csproj">
-      <Project>{8FDF319B-B68A-8E22-C7EA-EC61413F3A65}</Project>
+      <Project>{2ED4CD10-E0C4-E5D0-657B-F1A0C8118A06}</Project>
       <Name>Unity.Services.Core.Analytics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{768BBF1D-EC13-B258-0C08-0F6608410401}</Project>
+      <Project>{D49601B0-5255-A374-17FF-0F68FCBD9226}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{2A42A239-2F66-AD04-0E50-84DCF0A40EC2}</Project>
+      <Project>{2B2C9451-EA72-EE8B-858E-959A31D3627C}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.Shared.Editor.csproj">
-      <Project>{2CD0C4DC-9691-6470-4892-0F053FCEE9A0}</Project>
+      <Project>{117F70D8-40D0-AFDD-0CEC-0C1EC59A537B}</Project>
       <Name>Unity.VisualScripting.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{604F8C01-CDA1-8965-857C-96F4A6F5499B}</Project>
+      <Project>{66825D61-D865-25CC-88D6-D3180E10579B}</Project>
       <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{9DC54C43-50D1-95EB-BB01-5C3160E083A4}</Project>
+      <Project>{A5D42177-FC4A-2DA0-B519-6E42DEE7B6E9}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{546FCC2C-381C-6D8B-E6B6-4B7DAD5BBD36}</Project>
+      <Project>{ADAAB97C-EBC5-492E-0CEB-1CED0C71DC41}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TestTools.CodeCoverage.Editor.csproj">
-      <Project>{90624677-5896-CEF1-34BC-AD6770A4F265}</Project>
+      <Project>{D916B4BC-6A6F-2486-A8F2-F657A57FFC58}</Project>
       <Name>Unity.TestTools.CodeCoverage.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
-      <Project>{D9EBFB72-5975-0825-D3CD-8D7E30A025A5}</Project>
+      <Project>{36DD5082-8FD8-BFD6-6885-42A736311AF2}</Project>
       <Name>Unity.VisualScripting.State</Name>
     </ProjectReference>
   </ItemGroup>

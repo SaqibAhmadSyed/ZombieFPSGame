@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{396FCD0E-21F6-6EFC-082D-8E5324C0A439}</ProjectGuid>
+    <ProjectGuid>{8FB0167C-FFF2-96B7-436B-2E0B7490A3F3}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Unity.Services.Core.Registration</AssemblyName>
@@ -327,6 +327,9 @@
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll</HintPath>
     </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Burst.Cecil.Mdb">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Mdb.dll</HintPath>
     </Reference>
@@ -351,6 +354,9 @@
     <Reference Include="Unity.Burst.Cecil.Rocks">
       <HintPath>Library\PackageCache\com.unity.burst@1.8.2\Unity.Burst.CodeGen\Unity.Burst.Cecil.Rocks.dll</HintPath>
     </Reference>
+    <Reference Include="DOTween">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VisualScripting.Antlr3.Runtime">
       <HintPath>Library\PackageCache\com.unity.visualscripting@1.8.0\Runtime\VisualScripting.Flow\Dependencies\NCalc\Unity.VisualScripting.Antlr3.Runtime.dll</HintPath>
     </Reference>
@@ -359,12 +365,6 @@
     </Reference>
     <Reference Include="Newtonsoft.Json">
       <HintPath>Library\PackageCache\com.unity.nuget.newtonsoft-json@3.0.2\Runtime\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
-    <Reference Include="DOTween">
-      <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.17f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
@@ -741,39 +741,39 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.Services.Core.Internal.csproj">
-      <Project>{7C59FFB9-3D0C-A5B7-0C28-E147C976DBD0}</Project>
+      <Project>{D8AC6FAE-15A5-6A95-4597-ACBD00E33A59}</Project>
       <Name>Unity.Services.Core.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Device.csproj">
-      <Project>{DC5BA934-F60A-C0FA-77B2-2BBDD9DA34A9}</Project>
+      <Project>{C6521435-48A5-5C10-5CB0-87F5245A8705}</Project>
       <Name>Unity.Services.Core.Device</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.csproj">
-      <Project>{604F8C01-CDA1-8965-857C-96F4A6F5499B}</Project>
+      <Project>{66825D61-D865-25CC-88D6-D3180E10579B}</Project>
       <Name>Unity.Services.Core.Environments</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Environments.Internal.csproj">
-      <Project>{C802229F-3EBC-0F21-1E20-33F285E8731A}</Project>
+      <Project>{819F6883-415B-A928-1348-B2C1AE675EE0}</Project>
       <Name>Unity.Services.Core.Environments.Internal</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Configuration.csproj">
-      <Project>{5357EA4A-3AE5-3783-39BA-A31751A90B8D}</Project>
+      <Project>{4A4A1FA6-4201-510D-DD5C-1E79F32A899D}</Project>
       <Name>Unity.Services.Core.Configuration</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.csproj">
-      <Project>{65F16392-679C-5B53-9435-F12308680A68}</Project>
+      <Project>{12E11362-FC81-2C60-C7AB-73BC26692A9D}</Project>
       <Name>Unity.Services.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Telemetry.csproj">
-      <Project>{7FEE9247-FF4A-788A-5F09-65C6E8E9E102}</Project>
+      <Project>{D9DC5CD7-8A9B-BE3E-B941-6CC8C9A3B4A4}</Project>
       <Name>Unity.Services.Core.Telemetry</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Scheduler.csproj">
-      <Project>{EE1FC482-E4EB-2B2F-FF41-3DC8AD73DD95}</Project>
+      <Project>{80E6D302-672B-E329-3D59-4565549F5A61}</Project>
       <Name>Unity.Services.Core.Scheduler</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Services.Core.Threading.csproj">
-      <Project>{D265D295-BAC2-DD80-8B14-34124A5862C0}</Project>
+      <Project>{F91A0323-1BD9-68AA-5B1D-4C270FE88614}</Project>
       <Name>Unity.Services.Core.Threading</Name>
     </ProjectReference>
   </ItemGroup>

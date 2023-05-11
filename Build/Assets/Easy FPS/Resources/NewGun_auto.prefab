@@ -2398,7 +2398,7 @@ MonoBehaviour:
   horizontal_crosshair: {fileID: 2800000, guid: e1aa4c90445944348a112c3b7fa4b318,
     type: 3}
   vertical_crosshair: {fileID: 2800000, guid: 3f8b669e9880644cbb903f67bbc9f824, type: 3}
-  top_pos_crosshair: {x: -2.7, y: -20.8}
+  top_pos_crosshair: {x: -2.7, y: -18.8}
   bottom_pos_crosshair: {x: -2.7, y: -7.61}
   left_pos_crosshair: {x: -14, y: -5}
   right_pos_crosshair: {x: -5.5, y: -5}
