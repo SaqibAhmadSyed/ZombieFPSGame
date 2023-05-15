@@ -1,12 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
-using System.Diagnostics;
 using UnityEngine;
 
-public class CollectFirstAid : MonoBehaviour
+
+public class CollectAmmo : MonoBehaviour
 {
     public ParticleSystem DestructionEffect;
-    public float firstAidCooldown = 3f;
+    public float ammoCooldown = 3f;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -14,8 +14,9 @@ public class CollectFirstAid : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             // GameManager.Instance.FirstAidCollected();
-            Invoke("SetTrue", firstAidCooldown);
-            PlayerHealth.Instance.CollectedFirstAid();
+            Invoke("SetTrue", ammoCooldown);
+            //PlayerHealth.Instance.CollectAmmo();
+            Debug.Log("Ammo Collected");
             Explode();
         }
 

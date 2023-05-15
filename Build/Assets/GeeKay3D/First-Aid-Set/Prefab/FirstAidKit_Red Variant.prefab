@@ -106,19 +106,6 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 4956459432436911638}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &557777652
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6127300018159428900}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9472d452b10768c49a88846ea5d6799a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 10
 --- !u!114 &557777659
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,3 +120,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DestructionEffect: {fileID: 1658003881737705396}
   firstAidCooldown: 30
+--- !u!114 &8103678039095362513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6127300018159428900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f56a4b14474fbf642a7b8fabac4a054e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  degreesPerSecond: 60
+  amplitude: 0.2
+  frequency: 1
