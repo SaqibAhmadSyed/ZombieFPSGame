@@ -8,6 +8,8 @@ public class BulletScript : MonoBehaviour {
 	RaycastHit hit;
 	[Tooltip("Prefab of wall damange hit. The object needs 'LevelPart' tag to create decal on it.")]
 	public GameObject decalHitWall;
+	[Tooltip("Prefab of wall damange hit. The object needs 'LevelPart' tag to create decal on it.")]
+	public GameObject decalHitConcrete;
 	[Tooltip("Decal will need to be sligtly infront of the wall so it doesnt cause rendeing problems so for best feel put from 0.01-0.1.")]
 	public float floatInfrontOfWall;
 	[Tooltip("Blood prefab particle this bullet will create upoon hitting enemy")]
@@ -24,11 +26,17 @@ public class BulletScript : MonoBehaviour {
 
 		if(Physics.Raycast(transform.position, transform.forward,out hit, maxDistance, ~ignoreLayer)){
 			if(decalHitWall){
-				if(hit.transform.tag == "LevelPart"){
+				if(hit.transform.tag == "Footsteps/Wood")
+				{
 					Instantiate(decalHitWall, hit.point + hit.normal * floatInfrontOfWall, Quaternion.LookRotation(hit.normal));
 					Destroy(gameObject);
 				}
-				if(hit.transform.tag == "Dummie"){
+				if (hit.transform.tag == "Concrete")
+				{
+					Instantiate(decalHitConcrete, hit.point + hit.normal * floatInfrontOfWall, Quaternion.LookRotation(hit.normal));
+					Destroy(gameObject);
+				}
+				if (hit.transform.tag == "Enemy"){
 					Instantiate(bloodEffect, hit.point, Quaternion.LookRotation(hit.normal));
 					Destroy(gameObject);
 				}

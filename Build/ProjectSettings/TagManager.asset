@@ -12,6 +12,8 @@ TagManager:
   - Footsteps/Wood
   - Footsteps/Grass
   - Footsteps/Concrete
+  - Enemy
+  - Concrete
   layers:
   - Default
   - TransparentFX
