@@ -16,6 +16,8 @@ public class BulletScript : MonoBehaviour {
 	public GameObject bloodEffect;
 	[Tooltip("Put Weapon layer and Player layer to ignore bullet raycast.")]
 	public LayerMask ignoreLayer;
+	[Tooltip("Damage amount")]
+	float damage = 10f;
 
 	/*
 	* Uppon bullet creation with this script attatched,
@@ -23,7 +25,6 @@ public class BulletScript : MonoBehaviour {
 	* If raycast finds somethig it will create a decal of corresponding tag.
 	*/
 	void Update () {
-
 		if(Physics.Raycast(transform.position, transform.forward,out hit, maxDistance, ~ignoreLayer)){
 			if(decalHitWall){
 				if(hit.transform.tag == "Footsteps/Wood")
@@ -37,6 +38,8 @@ public class BulletScript : MonoBehaviour {
 					Destroy(gameObject);
 				}
 				if (hit.transform.tag == "Enemy"){
+					Enemy enemy = hit.transform.GetComponent<Enemy>();
+					enemy.TakeDamage(damage);
 					Instantiate(bloodEffect, hit.point, Quaternion.LookRotation(hit.normal));
 					Destroy(gameObject);
 				}
@@ -45,5 +48,4 @@ public class BulletScript : MonoBehaviour {
 		}
 		Destroy(gameObject, 0.1f);
 	}
-
 }
