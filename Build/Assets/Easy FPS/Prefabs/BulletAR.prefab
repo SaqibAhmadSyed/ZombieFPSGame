@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2341860}
   - component: {fileID: 11440490}
   m_Layer: 2
-  m_Name: Bullet
+  m_Name: BulletAR
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -119,3 +119,4 @@ MonoBehaviour:
   ignoreLayer:
     serializedVersion: 2
     m_Bits: 768
+  damage: 25

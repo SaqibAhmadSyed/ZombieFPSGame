@@ -32,6 +32,8 @@ public class GunScript : MonoBehaviour {
 
 	private PlayerMovementScript pmS;
 
+	public static float damage = 25f;
+
 	/*
 	 * Collection the variables upon awake that we need.
 	 */

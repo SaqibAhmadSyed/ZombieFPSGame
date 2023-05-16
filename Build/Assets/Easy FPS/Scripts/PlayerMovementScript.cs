@@ -44,7 +44,7 @@ public class PlayerMovementScript : MonoBehaviour {
 	void PlayerMovementLogic(){
 		currentSpeed = rb.velocity.magnitude;
 		horizontalMovement = new Vector2 (rb.velocity.x, rb.velocity.z);
-		if (horizontalMovement.magnitude > maxSpeed){
+		if (horizontalMovement.magnitude > maxSpeed*2){
 			horizontalMovement = horizontalMovement.normalized;
 			horizontalMovement *= maxSpeed;    
 		}
