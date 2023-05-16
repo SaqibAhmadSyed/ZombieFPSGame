@@ -15,6 +15,7 @@ public class CollectFirstAid : MonoBehaviour
         {
             // GameManager.Instance.FirstAidCollected();
             Invoke("SetTrue", firstAidCooldown);
+            PlayerHealth.Instance.CollectedFirstAid();
             Explode();
         }
 
