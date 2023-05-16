@@ -30,7 +30,7 @@ private void Update()
 {
     // Calculate the distance between the enemy and the player
     float distanceToPlayer = Vector3.Distance(transform.position, player.position);
-
+    transform.LookAt(player);
    if (distanceToPlayer > chasingDistance)
 {
     // Move the enemy towards the player at walking speed
