@@ -91,6 +91,7 @@
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\DefaultPostFxModelEditor.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Models\DitheringModelEditor.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Editor\Monitors\VectorscopeMonitor.cs" />
+    <Compile Include="Assets\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

@@ -23,7 +23,7 @@ public class EnemyDamage : MonoBehaviour
         // if the player is within attack range, deal damage
         if (distanceToPlayer <= attackRange)
         {
-            
+
             PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {

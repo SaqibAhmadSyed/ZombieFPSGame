@@ -56,12 +56,6 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damage * Time.deltaTime;
 
-       
-       
-
-
-
-        
         if (currentHealth <= 0)
         {
             // Player is dead, end the scene
