@@ -10,7 +10,7 @@ public class SoundTrigger : MonoBehaviour
     [SerializeField]// Add your Audi Clip Here;
     BoxCollider soundTrigger;
     [SerializeField]// This Will Configure the  AudioSource Component; 
-    Boolean loopMusic;          
+    Boolean loopMusic;
     // MAke Sure You added AudioSouce to death Zone;
     void Awake()
     {
@@ -29,10 +29,10 @@ public class SoundTrigger : MonoBehaviour
         {
             Destroy(soundTrigger);
             source.Play();
-            if(!loopMusic)
-            { 
-            yield return new WaitForSeconds(source.clip.length);
-            Destroy(gameObject);
+            if (!loopMusic)
+            {
+                yield return new WaitForSeconds(source.clip.length);
+                Destroy(gameObject);
             }
 
         }

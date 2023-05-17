@@ -14,6 +14,8 @@ TagManager:
   - Footsteps/Concrete
   - Enemy
   - Concrete
+  - Ammo
+  - FirstAid
   layers:
   - Default
   - TransparentFX

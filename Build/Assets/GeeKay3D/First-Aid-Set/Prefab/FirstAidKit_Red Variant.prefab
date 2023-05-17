@@ -12,6 +12,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: FirstAidKit_Red Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 1279140426991430450, guid: 360690a7c06559a4f927c76899139848,
+        type: 3}
+      propertyPath: m_TagString
+      value: FirstAid
+      objectReference: {fileID: 0}
     - target: {fileID: 2853930486529300769, guid: 360690a7c06559a4f927c76899139848,
         type: 3}
       propertyPath: m_RootOrder
@@ -89,8 +94,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6527879495042163959, guid: 360690a7c06559a4f927c76899139848,
         type: 3}
+      propertyPath: m_Size.x
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527879495042163959, guid: 360690a7c06559a4f927c76899139848,
+        type: 3}
+      propertyPath: m_Size.y
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527879495042163959, guid: 360690a7c06559a4f927c76899139848,
+        type: 3}
       propertyPath: m_Size.z
-      value: 2.95
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527879495042163959, guid: 360690a7c06559a4f927c76899139848,
+        type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 360690a7c06559a4f927c76899139848, type: 3}

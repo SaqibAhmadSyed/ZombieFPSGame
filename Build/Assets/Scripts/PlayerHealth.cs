@@ -32,17 +32,44 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= damage;
 
+
+        /*if (zombiecounter >= 15 && Application.loadedLevel == 1)
+         {
+            levelcompleteBG.SetActive(true);
+            Time.timeScale = 1;
+            if (!Cursor.visible || Cursor.lockState == CursorLockMode.Locked)
+            {
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+        }/*/
+
+    }
+/*    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage * Time.deltaTime;
+
+       
+        
         if (currentHealth <= 0)
         {
             // Player is dead, end the scene
             //SceneManager.LoadScene("GameOverScene");
             Application.Quit();
         }
-    }
+    }*/
 
     public void CollectedFirstAid()
     {
-        currentHealth += firstAidHealing;
+        if ((currentHealth >= (startingHealth - firstAidHealing)))
+        {
+            currentHealth = startingHealth;
+        }
+        else
+        {
+           currentHealth += firstAidHealing;
+        }
+        
         Debug.Log("Added Health");
     }
 
