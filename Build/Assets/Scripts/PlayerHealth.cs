@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour
     public int firstAidHealing = 60;
     public float currentHealth;
     public TextMeshProUGUI lifevalue, zombieDeathCounter;
-    public GameObject levelfailedBG;
+    public GameObject levelfailedBG, levelcompleteBG;
     public static int zombiecounter = 0;
     // public Image greenBar;
    // public float Life = 1;
@@ -38,23 +38,30 @@ public class PlayerHealth : MonoBehaviour
     {
         lifevalue.text = ((int)currentHealth).ToString();
         zombieDeathCounter.text = zombiecounter.ToString();
+
+
+        if (zombiecounter >= 15 && Application.loadedLevel == 1)
+         {
+            levelcompleteBG.SetActive(true);
+            Time.timeScale = 1;
+            if (!Cursor.visible || Cursor.lockState == CursorLockMode.Locked)
+            {
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
+        }
+
     }
     public void TakeDamage(float damage)
     {
         currentHealth -= damage * Time.deltaTime;
 
        
-       // if (Life != 1)
-       // {
-       //     greenBar.fillAmount = Life;
-       //  }
-       //  if (Life <= 0)
-       // {
-       //     Life = 0;
+       
 
 
 
-        //   }
+        
         if (currentHealth <= 0)
         {
             // Player is dead, end the scene
@@ -77,6 +84,11 @@ public class PlayerHealth : MonoBehaviour
     public void mainmenu()
     {
         Application.LoadLevel(0);
+        Time.timeScale = 0;
+    }
+    public void nextlevel()
+    {
+        Application.LoadLevel(Application.loadedLevel + 1);
         Time.timeScale = 0;
     }
     public void CollectedFirstAid()
