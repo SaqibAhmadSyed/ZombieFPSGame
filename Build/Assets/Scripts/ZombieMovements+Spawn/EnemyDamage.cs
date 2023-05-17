@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EnemyDamage : MonoBehaviour
 {
-    public int damage = 10; // amount of damage to deal to the player
+    public float damage = 10; // amount of damage to deal to the player
     public float attackRange = 2f; // range at which the enemy can attack the player
 
     private Transform player; // reference to the player's transform
@@ -12,7 +12,7 @@ public class EnemyDamage : MonoBehaviour
     private void Start()
     {
         // find the player object in the scene
-        player = GameObject.FindGameObjectWithTag("MainCamera").transform;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     private void Update()
@@ -23,10 +23,13 @@ public class EnemyDamage : MonoBehaviour
         // if the player is within attack range, deal damage
         if (distanceToPlayer <= attackRange)
         {
+            
             PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
             if (playerHealth != null)
             {
+                transform.GetComponent<Animation>().Play("Attack1");
                 playerHealth.TakeDamage(damage);
+
             }
         }
     }

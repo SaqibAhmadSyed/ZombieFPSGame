@@ -1834,7 +1834,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fceffc3ac9697fd458fa4ef7b1364043, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stoppingDistance: 3.5
+  stoppingDistance: 4
   walkingSpeed: 3
   runningSpeed: 7
   chasingDistance: 10
@@ -1853,8 +1853,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5e7cc0c39278d6949ae371906d4599e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 10
-  attackRange: 2
+  damage: 0.3
+  attackRange: 4
 --- !u!114 &3606326997063460283
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1867,7 +1867,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b69956f929f73640acd513b3c9dbefd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 100
+  maxHealth: 50
+  hitcounter: 0
 --- !u!54 &-5788567950983322579
 Rigidbody:
   m_ObjectHideFlags: 0
