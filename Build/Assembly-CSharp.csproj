@@ -57,23 +57,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
+    <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\Scripts\WarFX Scripts\Spawn System\CFX_SpawnSystem.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
     <Compile Include="Assets\Scripts\Easy FPS Scripts\PlayerMovementScript.cs" />
     <Compile Include="Assets\Scripts\Easy FPS Scripts\GunScript.cs" />
     <Compile Include="Assets\Scripts\WarFX Scripts\WFX_BulletHoleDecal.cs" />
+    <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Scripts\Easy FPS Scripts\MouseLookScript.cs" />
+    <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\Scripts\DisableRenderer.cs" />
     <Compile Include="Assets\Scripts\ZombieMovements+Spawn\EnemyMovement.cs" />
     <Compile Include="Assets\Scripts\WarFX Scripts\CFX_AutoDestructShuriken.cs" />
-    <Compile Include="Assets\Scripts\Target.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\BloomModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FxaaComponent.cs" />
+    <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
     <Compile Include="Assets\Scripts\Easy FPS Scripts\GunInventory.cs" />
+    <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
     <Compile Include="Assets\Scripts\ZombieMovements+Spawn\EnemyDamage.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
@@ -108,6 +113,7 @@
     <Compile Include="Assets\Scripts\Easy FPS Scripts\DestroyAfterTimeParticle.cs" />
     <Compile Include="Assets\Scripts\SoundTrigger.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
+    <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
     <Compile Include="Assets\Scripts\PlayerHealthSystem.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
@@ -122,6 +128,7 @@
     <Compile Include="Assets\Scripts\RotateScript.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\UserLutComponent.cs" />
     <Compile Include="Assets\Scripts\CollectAmmo.cs" />
+    <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
@@ -129,16 +136,8 @@
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Components\FogComponent.cs" />
     <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
     <Compile Include="Assets\Flooded_Grounds\Scripts\FPSDisplay.cs" />
-    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
-    <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_DeleteAfterDelay.cs" />
-    <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_Translate.cs" />
-    <Compile Include="Assets\WarFX\Demo\Assets\CFX_AutoStopLoopedEffect.cs" />
-    <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo.cs" />
-    <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_RotateCamera.cs" />
-    <Compile Include="Assets\WarFX\Demo\Assets\CFX_Demo_RandomDir.cs" />
-    <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_Wall.cs" />
     <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_New.cs" />
-    <Compile Include="Assets\WarFX\Demo\Assets\WFX_Demo_RandomDir.cs" />
+    <Compile Include="Assets\Flooded_Grounds\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

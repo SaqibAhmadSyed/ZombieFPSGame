@@ -58,10 +58,14 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            GunInventory currentGun = GetComponent<GunInventory>();
+            currentGun.DeadMethod();
+
             // Player is dead, end the scene
             //SceneManager.LoadScene("GameOverScene");
             // Application.Quit();
             levelfailedBG.SetActive(true);
+            currentGun.Create_Weapon();
             Time.timeScale = 1;
             if (!Cursor.visible || Cursor.lockState == CursorLockMode.Locked)
             {

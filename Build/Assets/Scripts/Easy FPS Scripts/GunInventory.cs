@@ -20,12 +20,16 @@ public class GunInventory : MonoBehaviour {
 	[HideInInspector]
 	public float switchWeaponCooldown;
 
+	public ParticleSystem DestructionEffect;
+	public float cooldown = 3f;
+	private GunInventory gunInventoryInstance;
+
 	/*
 	 * Calling the method that will update the icons of our guns if we carry any upon start.
 	 * Also will spawn a weapon upon start.
 	 */
 	void Awake(){
-		StartCoroutine("UpdateIconsFromResources");
+		//StartCoroutine("UpdateIconsFromResources");
 
 		StartCoroutine ("SpawnWeaponUponStart");//to start with a gun
 
@@ -33,10 +37,10 @@ public class GunInventory : MonoBehaviour {
 			print ("No guns in the inventory");
 	}
 
-	/*
+    /*
 	*Waits some time then calls for a waepon spawn
 	*/
-	IEnumerator SpawnWeaponUponStart(){
+    IEnumerator SpawnWeaponUponStart(){
 		yield return new WaitForSeconds (0.5f);
 		StartCoroutine("Spawn",0);
 	}
@@ -63,22 +67,22 @@ public class GunInventory : MonoBehaviour {
 	 * So if the gun prefab is called "Sniper_Piper" the corresponding image must be located in the location form previous,
 	 * with the name "Sniper_Piper_img".
 	 */
-	IEnumerator UpdateIconsFromResources(){
-		yield return new WaitForEndOfFrame ();
+	//IEnumerator UpdateIconsFromResources(){
+	//	yield return new WaitForEndOfFrame ();
 
-		icons = new Texture[gunsIHave.Count];
-		for(int i = 0; i < gunsIHave.Count; i++){
-			icons[i] = (Texture) Resources.Load("Weap_Icons/" + gunsIHave[i].ToString() + "_img");
-		}
+	//	icons = new Texture[gunsIHave.Count];
+	//	for(int i = 0; i < gunsIHave.Count; i++){
+	//		icons[i] = (Texture) Resources.Load("Weap_Icons/" + gunsIHave[i].ToString() + "_img");
+	//	}
 
-	}
+	//}
 
 	/*
 	 * If used scroll mousewheel or arrows up and down the player will change weapon.
 	 * GunPlaceSpawner is child of Player gameObject, where the gun is going to spawn and transition to our
 	 * gun properties value.
 	 */
-	void Create_Weapon(){
+	public void Create_Weapon(){
 
 		/*
 		 * Scrolling wheel waepons changing
@@ -122,7 +126,7 @@ public class GunInventory : MonoBehaviour {
 	 * This method is called from Create_Weapon() upon pressing arrow up/down or scrolling the mouse wheel,
 	 * It will check if we carry a gun and destroy it, and its then going to load a gun prefab from our Resources Folder.
 	 */
-	IEnumerator Spawn(int _redniBroj){
+	public IEnumerator Spawn(int _redniBroj){
 		if (weaponChanging)
 			weaponChanging.Play ();
 		else
@@ -163,7 +167,6 @@ public class GunInventory : MonoBehaviour {
 
 	}
 
-
 	/*
 	* Assigns Animator to the script so we can use it in other scripts of a current gun.
 	*/
@@ -171,6 +174,47 @@ public class GunInventory : MonoBehaviour {
 		if(_currentGun.name.Contains("Gun")){
 			currentHAndsAnimator = currentGun.GetComponent<GunScript>().handsAnimator;
 		}
+	}
+
+	void OnCollisionEnter(Collision collision)
+	{
+		if (collision.gameObject.name == "AK47")
+		{
+			StartCoroutine("Spawn", 1);
+		}
+		if (collision.gameObject.name == "MP5")
+        {
+			StartCoroutine("Spawn", 0);
+		}
+	}
+
+	public void GunInventoryInstance(GunInventory instance)
+	{
+		gunInventoryInstance = instance;
+	}
+
+	void SetTrue()
+	{
+		gameObject.SetActive(true);
+	}
+
+
+	void Explode()
+	{
+		//Instantiate our one-off particle system
+		ParticleSystem explosionEffect = Instantiate(DestructionEffect)
+										 as ParticleSystem;
+		explosionEffect.transform.position = transform.position;
+		//play it
+
+		explosionEffect.Play();
+
+		//destroy the particle system when its duration is up, right
+		//it would play a second time.
+
+		Destroy(explosionEffect.gameObject, 3);
+		gameObject.SetActive(false);
+
 	}
 
 	/*
@@ -236,7 +280,6 @@ public class GunInventory : MonoBehaviour {
 	 */
 	public void DeadMethod(){
 		Destroy (currentGun);
-		Destroy (this);
 	}
 
 
