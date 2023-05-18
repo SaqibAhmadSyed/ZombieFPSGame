@@ -1,6 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+/*using static System.Net.Mime.MediaTypeNames;*/
+/*using System.Diagnostics;*/
 
 public class PlayerHealth : MonoBehaviour
 {
@@ -8,9 +12,14 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     public int startingHealth = 100;
     public int firstAidHealing = 60;
-    public int currentHealth;
-
+    public float currentHealth;
+    public TextMeshProUGUI lifevalue, zombieDeathCounter;
+    public GameObject levelfailedBG, levelcompleteBG;
+    public static int zombiecounter = 0;
+    // public Image greenBar;
+    // public float Life = 1;
     public static PlayerHealth Instance
+
     {
         get
         {
@@ -26,11 +35,12 @@ public class PlayerHealth : MonoBehaviour
     private void Awake()
     {
         currentHealth = startingHealth;
+        zombiecounter = 0;
     }
-
-    public void TakeDamage(int damage)
+    private void Update()
     {
-        currentHealth -= damage;
+        lifevalue.text = ((int)currentHealth).ToString();
+        zombieDeathCounter.text = zombiecounter.ToString();
 
 
         /*if (zombiecounter >= 15 && Application.loadedLevel == 1)
@@ -42,23 +52,48 @@ public class PlayerHealth : MonoBehaviour
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.None;
             }
-        }/*/
+        }*/
 
     }
-/*    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         currentHealth -= damage * Time.deltaTime;
 
-       
-        
+
+
+
+
+
+
         if (currentHealth <= 0)
         {
             // Player is dead, end the scene
             //SceneManager.LoadScene("GameOverScene");
-            Application.Quit();
+            // Application.Quit();
+            levelfailedBG.SetActive(true);
+            Time.timeScale = 1;
+            if (!Cursor.visible || Cursor.lockState == CursorLockMode.Locked)
+            {
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.None;
+            }
         }
-    }*/
-
+    }
+    public void restartGame()
+    {
+        Application.LoadLevel(Application.loadedLevel);
+        Time.timeScale = 0;
+    }
+    public void mainmenu()
+    {
+        Application.LoadLevel(0);
+        Time.timeScale = 0;
+    }
+    public void nextlevel()
+    {
+        Application.LoadLevel(Application.loadedLevel + 1);
+        Time.timeScale = 0;
+    }
     public void CollectedFirstAid()
     {
         if ((currentHealth >= (startingHealth - firstAidHealing)))
@@ -67,9 +102,9 @@ public class PlayerHealth : MonoBehaviour
         }
         else
         {
-           currentHealth += firstAidHealing;
+            currentHealth += firstAidHealing;
         }
-        
+
         Debug.Log("Added Health");
     }
 
