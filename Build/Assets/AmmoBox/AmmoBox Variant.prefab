@@ -191,6 +191,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: AmmoBox Variant
       objectReference: {fileID: 0}
+    - target: {fileID: -927199367670048503, guid: 45fb3b613218da844b047d1f9349e0d6,
+        type: 3}
+      propertyPath: m_TagString
+      value: Ammo
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 45fb3b613218da844b047d1f9349e0d6, type: 3}
 --- !u!4 &573019575536618790 stripped
@@ -213,11 +218,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3578285398299934517}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 3240.6616, y: 3478.877, z: 3434.6516}
+  m_Center: {x: 53.253075, y: -173.02057, z: -95.1145}
 --- !u!114 &-4168693597437010931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -247,19 +252,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   DestructionEffect: {fileID: 2231536689297633220}
   ammoCooldown: 30
---- !u!114 &7978654808471151691
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3578285398299934517}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9472d452b10768c49a88846ea5d6799a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rotateSpeed: 10
+  ammoAmount: 100
 --- !u!1001 &5968800690615103546
 PrefabInstance:
   m_ObjectHideFlags: 0

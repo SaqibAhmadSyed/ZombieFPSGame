@@ -5,16 +5,25 @@ using UnityEngine;
 
 public class CollectAmmo : MonoBehaviour
 {
+
     public ParticleSystem DestructionEffect;
     public float ammoCooldown = 3f;
+    [Tooltip("Reserve bullets.")]
+    public int ammoAmount = 100;
 
-    void OnCollisionEnter(Collision collision)
+
+
+    void OnTriggerEnter(Collider collision)
     {
 
         if (collision.gameObject.tag == "Player")
         {
             // GameManager.Instance.FirstAidCollected();
+            
             Invoke("SetTrue", ammoCooldown);
+            GunScript gs = GameObject.FindGameObjectWithTag("Weapon").GetComponent<GunScript>();
+            gs.AddAmmo(ammoAmount);
+            
             //PlayerHealth.Instance.CollectAmmo();
             Debug.Log("Ammo Collected");
             Explode();
@@ -32,13 +41,13 @@ public class CollectAmmo : MonoBehaviour
     void Explode()
     {
         //Instantiate our one-off particle system
+
         ParticleSystem explosionEffect = Instantiate(DestructionEffect)
                                          as ParticleSystem;
         explosionEffect.transform.position = transform.position;
         //play it
 
         explosionEffect.Play();
-
         //destroy the particle system when its duration is up, right
         //it would play a second time.
 

@@ -5,17 +5,25 @@ using UnityEngine;
 
 public class CollectFirstAid : MonoBehaviour
 {
+   
+
     public ParticleSystem DestructionEffect;
     public float firstAidCooldown = 3f;
 
-    void OnCollisionEnter(Collision collision)
-    {
 
+    void OnTriggerEnter(Collider collision)
+    {
+               
         if (collision.gameObject.tag == "Player")
         {
-            // GameManager.Instance.FirstAidCollected();
+            
             Invoke("SetTrue", firstAidCooldown);
-            PlayerHealth.Instance.CollectedFirstAid();
+            PlayerHealth playerHealth = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.CollectedFirstAid();
+            }
+           
             Explode();
         }
 
